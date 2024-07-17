@@ -126,13 +126,13 @@ export default defineConfig({
    * @description 基于 openapi 的规范生成serve 和mock，能减少很多样板代码
    * @doc https://pro.ant.design/zh-cn/docs/openapi/
    */
-  openAPI: [
-    {
-      requestLibPath: "import { request } from '@umijs/max'",
-      schemaPath: 'http://localhost:8101/api/v2/api-docs',
-      projectName: 'backend',
-    },
-  ],
+  // openAPI: [
+  //   {
+  //     requestLibPath: "import { request } from '@umijs/max'",
+  //     schemaPath: 'http://localhost:8101/api/v2/api-docs',
+  //     projectName: 'backend',
+  //   },
+  // ],
   mfsu: {
     strategy: 'normal',
   },

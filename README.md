@@ -8,12 +8,12 @@ npm install
 
 - 开发模式运行
 ```
-npm run dev
+npm run start:dev
 ```
 
 - 编译项目
 ```
-npm run build
+max build
 ```
 
 
