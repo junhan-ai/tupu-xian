@@ -1,0 +1,6 @@
+/* styles.css */
+.preformatted-text {
+  white-space: pre-wrap; /* 保留换行和空格，并允许自动换行 */
+  word-wrap: break-word; /* 允许单词在必要时断开换行 */
+  overflow: auto; /* 如果内容超出容器，显示滚动条 */
+}
